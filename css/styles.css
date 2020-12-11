@@ -1,0 +1,47 @@
+:root {
+  --dark-background-color: #2f303a;
+  --header-background-color: #ffffff;
+  --main-backgroun-color: #e5e5e5;
+  --sec-main-backgroung-color: #f5f4fa;
+
+  --accent-color: #2196f3;
+
+  --main-text-color: #212121;
+  --sec-text-color: #757575;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header styles */
+.header {
+  background-color: var(#ffffff);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.logo-color,
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+.nav-link {
+  color: var(--main-text-color);
+}
