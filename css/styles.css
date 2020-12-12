@@ -49,7 +49,8 @@ li {
 /* Main styles */
 
 /* Hero */
-.hero {
+.hero,
+.footer {
   background-color: var(--dark-background-color);
 }
 
@@ -121,4 +122,19 @@ p {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+/* Footer */
+.white-text {
+  color: #ffffff;
+}
+
+.footer-addr {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
 }
