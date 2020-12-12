@@ -38,7 +38,9 @@ li {
 
 .logo-color,
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.header-contacts:hover,
+.header-contacts:focus {
   color: var(--accent-color);
 }
 
@@ -46,8 +48,20 @@ li {
   color: var(--accent-color);
 }
 
+.nav-link,
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+}
+
 .nav-link {
   color: var(--main-text-color);
+}
+
+.header-contacts {
+  color: var(--sec-text-color);
 }
 
 /* Main styles */
