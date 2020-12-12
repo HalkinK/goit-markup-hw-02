@@ -39,7 +39,11 @@ li {
 .logo-color,
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+.nav-link.current {
+  color: var(--accent-color);
 }
 
 .nav-link {
