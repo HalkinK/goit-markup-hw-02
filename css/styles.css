@@ -1,8 +1,7 @@
 :root {
   --dark-background-color: #2f303a;
   --header-background-color: #ffffff;
-  --main-backgroun-color: #e5e5e5;
-  --sec-main-backgroung-color: #f5f4fa;
+  --main-backgroung-color: #f5f4fa;
 
   --accent-color: #2196f3;
 
@@ -12,6 +11,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: var(--main-backgroun-color);
 }
 
 a {
@@ -24,7 +24,7 @@ li {
 
 /* Header styles */
 .header {
-  background-color: var(#ffffff);
+  background-color: var(--header-background-color);
 }
 
 .logo {
@@ -44,4 +44,81 @@ li {
 
 .nav-link {
   color: var(--main-text-color);
+}
+
+/* Main styles */
+
+/* Hero */
+.hero {
+  background-color: var(--dark-background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.order-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+
+/* Advantages section */
+.advant-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--main-text-color);
+}
+
+p {
+  color: var(--sec-text-color);
+}
+
+.advant-descr {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Team section */
+.member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+.m-position {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
