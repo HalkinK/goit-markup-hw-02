@@ -138,3 +138,35 @@ p {
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* Portfolio */
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+  background-color: var(--main-backgroung-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--main-text-color);
+}
+
+.project-area {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
